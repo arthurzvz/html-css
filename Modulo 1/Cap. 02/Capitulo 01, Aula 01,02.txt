@@ -1,0 +1,16 @@
+Capítulo 02, Aula 01
+
+Bytes = múltiplos de 8.
+bits = são representados por 0 ou 1.
+MB = MEGABYTE: Refere-se a arquivos em armazenamento.
+Mb = MEGABITE: transmissão.
+
+DNS: sistema de cruzamento, que cruza o domínio com o IP correspondente, direcionando o usuário para o mesmo.
+MODEM: responsável por modelar os sinais para uma linguagem compreensível para o eletrônico receptor/ou emissor.
+DOMÍNIO: É o nome que máscara o IP.
+
+AULA 02
+
+URL: é composta por subdomínio, domínio, TLD e caminho.
+TLD: GTLD(GENÉRICO) / CCTLD(COUNTRY CODE) = Código de país.
+HOSPEDAGEM: Local onde são armazendados os dados.

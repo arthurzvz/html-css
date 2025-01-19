@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Videos hospedados localmente</h1>
+    <p>este video está no meu próprio server.</p>
+    <h2>Primeira forma</h2>
+    <video src="midia/vapo.mp4" width="560" poster="imagens/m.png" controls></video>
+    <h2>Segunda Forma(Recomendada)</h2>
+    <video controls width="560">
+        <source src="midia/vapo.mp4" type="video/mp4">
+        <source src="midia/Vapo.mkv" type="video/mkv">
+        <p>Infelizmente, seu navegador é uma mearda</p>
+    </video>
+    <h1>Videos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/q-ZJwAVDwtc?si=cnReGWy9bHiGDOfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+</body>
+</html>

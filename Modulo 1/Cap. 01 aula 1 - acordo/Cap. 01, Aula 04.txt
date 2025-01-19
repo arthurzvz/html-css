@@ -1,0 +1,5 @@
+Cap. 01, Aula 04.
+
+HTTP: Protocolo focado em hipertexto.
+
+O servidor envia o arquivo, que é separado em vários pacotes, e caminham por várias rotas da internet, até chegar ao cliente.

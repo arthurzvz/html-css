@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em dispositivos diferentes ou simplesmente, mude o tamanhon no navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>lets go aprender áudio em HTML5.</p>
+    <audio src="midia/themehu.mp3" controls autoplay></audio>
+    <!--MP3 .WAV OGG-->
+    <H2>Outra maneira</H2>
+    <audio preload="" controls autoplay loop>
+        <source src="midia/themehu.mp3" type="audio/mpeg">
+        <p>Indelizmente, seu navegador é uma mearda.</p>
+    </audio>
+</body>
+</html>

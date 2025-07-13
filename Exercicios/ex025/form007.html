@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+        <p><label for="ijog">Jogadores</label>
+            <select name="jog" id="ijog">
+                <optgroup label="Barcelona">
+                    <option value="ney">Neymar Jr</option>
+                    <option value="mes">Messi</option>
+                    <option value="sua">Luís Suarez</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="itim">Times</label>
+            <input type="text" name="tim" id="itim" list="lsttim">
+            <datalist id="lsttim">
+                <option value="Barcelona"></option>
+                <option value="Chelsea"></option>
+                <option value="Real Madrid"></option>
+                <option value="Manchester United"></option>
+            </datalist>
+        </p>
+    </form>
+</body>
+</html>
